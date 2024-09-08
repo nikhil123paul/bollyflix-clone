@@ -1,0 +1,64 @@
+#twonav{
+    padding-right: 60px;
+    background-color: rgb(103, 101, 101);
+    color: aliceblue;
+    border: 1px solid rgb(217, 213, 213);
+}
+#twonav:hover{
+    scale: 1.1;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bolder;
+}
+#threenav{
+    background-color: rgb(103, 101, 101);
+    border: 2px solid white;
+    color: white;
+}
+#threenav:hover{
+    scale: 1.1;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bolder;
+}
+/* .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+#four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(55, 54, 54);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+#four:hover{
+    scale: 1.05;
+    box-shadow:5px 10px 10px 5px rgb(134, 129, 129);
+    font-weight: bolder;
+    /* color: black; */
+}
+img:hover{
+    /* scale: 1.01; */
+    box-shadow: 5px 10px 10px 5px rgb(134, 129, 129);
+    /* font-weight: bolder;
+    color: black; */
+}
+.page-link{
+    background-color:  rgb(103, 101, 101);
+    border: none;
+    color: white;
+    padding-right: 30px;
+}
+.page-link:hover{
+    background-color: rgb(51, 211, 51);
+    color: black;
+}
